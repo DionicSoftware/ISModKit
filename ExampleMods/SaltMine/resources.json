@@ -1,0 +1,11 @@
+{
+	"salt": {
+        "name": "salt",
+        "stackSize": 30,
+        "colorHex": "E2E099",
+        "carModelName": "Car_A",
+        "canBePrioritized": true,
+        "canHaveExportRule": true,
+        "maxOrderStackSize": 1000
+    }
+}

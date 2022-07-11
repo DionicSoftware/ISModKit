@@ -1,0 +1,3 @@
+2832246582
+
+This file is created by InfraSpace when you upload your mod to the Steam Workshop. It contains the id of this mod so that the game can tell Steam which Steamworks mod are linked to this folder.

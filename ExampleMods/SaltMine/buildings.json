@@ -1,0 +1,25 @@
+{
+	"saltMine": {
+		"costs": [
+		  {"resourceName": "concrete", "amount": 500 },
+		],
+		"buildingSound": "build mine",
+		"workingSound": "mineWorking",
+		"colliders": [
+		  {"type": "box", "center": {"x": 0, "y": 0.75, "z":  0}, "size": {"x": 4, "y": 3.5, "z":  4}}
+		],
+		"productionLogic": {
+		  "type": "factory",
+		  "productionDefinition": {
+			"consumables": [],
+			"producables": [
+			  {"resourceName": "salt", "amount": 1 },
+			],
+			"timeSteps":  60000,
+			"powerNeeded": 1.5,
+			"maxWorkers": 3
+		  }
+		},
+		"sideRoadOffset": {"x": 0, "y": 0, "z":  0.5}
+	}
+}

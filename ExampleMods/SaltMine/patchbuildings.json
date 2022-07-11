@@ -1,0 +1,10 @@
+{
+	"replaceOperations": {
+		"buildings/basicFarm/productionLogic/productionDefinition/consumables": [
+            {"resourceName": "salt", "amount": 1 }
+          ]
+	},
+	"removeOperations": [
+
+	]
+}

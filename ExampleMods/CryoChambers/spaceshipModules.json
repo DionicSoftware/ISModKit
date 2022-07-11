@@ -1,0 +1,19 @@
+{ 
+    "cryoChambers": {
+        "name": "cryoChambers",
+        "productionDefinition": {
+            "consumables": [{
+                "resourceName": "sand",
+                "amount": 1
+            }],
+            "producables": [{
+                "resourceName": "spaceshipModule",
+                "amount": 1
+            }],
+            "timeSteps": 100000
+        },
+        "requiredSteps": 5,
+        "modelNames": [ "Passenger" ],
+        "bonusText": "spaceshipUpgrade_addHundredWorkers"
+    }
+}
