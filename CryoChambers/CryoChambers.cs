@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ExampleMod {
     [System.Serializable]
-    public class HarmonyMod : Mod {
+    public class CryoChambers : Mod {
         public override void FrameUpdate() { 
         }
 

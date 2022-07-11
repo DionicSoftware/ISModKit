@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarmonyMod", "HarmonyMod.csproj", "{7C293183-3715-40CE-9199-8E057F632BC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpkeepMod", "UpkeepMod.csproj", "{5999D0EB-A961-4605-92CB-EC42875076E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7C293183-3715-40CE-9199-8E057F632BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C293183-3715-40CE-9199-8E057F632BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C293183-3715-40CE-9199-8E057F632BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C293183-3715-40CE-9199-8E057F632BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5999D0EB-A961-4605-92CB-EC42875076E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5999D0EB-A961-4605-92CB-EC42875076E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5999D0EB-A961-4605-92CB-EC42875076E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5999D0EB-A961-4605-92CB-EC42875076E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {64B27A21-6963-42CA-83C5-9D4BFD9DBB81}
+		SolutionGuid = {C5A82B11-6CA9-4015-AF51-2AD0E8812A09}
 	EndGlobalSection
 EndGlobal

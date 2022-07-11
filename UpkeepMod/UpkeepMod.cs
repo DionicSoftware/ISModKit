@@ -8,7 +8,7 @@ namespace ExampleMod {
     /// It adds some difficulty to the game by periodically taking a certain amount of concrete as an upkeep cost per building.
     /// </summary>
     [System.Serializable]
-    public class MyMod : Mod {
+    public class UpkeepMod : Mod {
         // How much concrete does upkeep cost per building (multiplied by 100 due to how resources work)
         private int upkeepCostPerBuilding = 100;
         // How frequently we want the upkeep to be taken (default 10 sec)
