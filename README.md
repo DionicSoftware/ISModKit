@@ -24,14 +24,15 @@ UpkeepMod is a basic mod that uses C# to change the game's behaviour.
 2. Open the project by double clicking on `UpkeepMod.sln` in the UpkeepMod folder
 3. Next, we should set up library references. I included some .dll files, but they might be out of date when you download the ISModKit. You can get the latest dll files directly from the game:
    - Go to your game install directory. Usually it's somewhere under `C:\Program Files (x86)\Steam\steamapps\common\InfraSpace`
-   -  Go to `InfraSpace_Data\Managed`. These are all the dlls you might need.
+   - Go to `InfraSpace_Data\Managed`. These are all the dlls you might need.
    - Move the dll files you need over to the lib folder in `UpkeepMod`. For the example mod it's enough to just replace the ones that are already in lib.
    - In visual studio, make sure all references are pointing to the correct dlls. You can manage them in the solution explorer under `UpkeepMod -> Dependencies -> Assemblies`
+   - Right click on `Assemblies` and select `Add Assembly Reference...` and then (re)add the dlls.
 
 4. Have a look at the code and try to understand what it's doing. Also check the script mod tutorial.
 5. In the menu, click on `Build -> Build Solution`
 6. A new dll file has been compiled and moved into `UpkeepMod\bin\Release\net4.7.2\UpkeepMod.dll`.
-7. Copy only `UpkeepMod.dll` into your mod directory. InfraSpace will now load the dll, look for any classes that inherit from `Mod` and start them with the game.
+7. Copy only `UpkeepMod.dll` into [UpkeepMod's mod directory](https://github.com/DionicSoftware/ISModKit/tree/master/ExampleMods/UpkeepMod). InfraSpace will now load the mod, look for any classes that inherit from `Mod` and start them with the game.
 8. Start InfraSpace place a couple buildings and see if the concrete is being reduced by your number of buildings periodically.
 
 
