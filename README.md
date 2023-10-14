@@ -25,7 +25,14 @@ UpkeepMod is a basic mod that uses C# to change the game's behaviour.
 3. Next, we should set up library references. I included some .dll files, but they might be out of date when you download the ISModKit. You can get the latest dll files directly from the game:
    - Go to your game install directory. Usually it's somewhere under `C:\Program Files (x86)\Steam\steamapps\common\InfraSpace`
    - Go to `InfraSpace_Data\Managed`. These are all the dlls you might need.
-   - Move the dll files you need over to the lib folder in `UpkeepMod`. For the example mod it's enough to just replace the ones that are already in lib.
+   - Move the dll files you need over to the lib folder in `UpkeepMod`. For the example mod it's enough to just replace the ones that are already in lib. But in general you would usually need:
+      - Assembly-CSharp.dll
+      - DionicCore.dll
+      - DionicGame.dll
+      - InfraSpaceCore.dll
+      - InfraSpaceGameExtensions.dll
+      - InfraSpaceGameFeatures.dll
+      - old.dll
    - In visual studio, make sure all references are pointing to the correct dlls. You can manage them in the solution explorer under `UpkeepMod -> Dependencies -> Assemblies`
    - Right click on `Assemblies` and select `Add Assembly Reference...` and then (re)add the dlls.
 
