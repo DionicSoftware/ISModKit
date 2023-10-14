@@ -19,14 +19,26 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>lib\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>lib\UnityEngine.dll</HintPath>
+    <Reference Include="DionicCore">
+      <HintPath>lib\DionicCore.dll</HintPath>
+    </Reference>
+    <Reference Include="DionicGame">
+      <HintPath>lib\DionicGame.dll</HintPath>
+    </Reference>
+    <Reference Include="InfraSpaceCore">
+      <HintPath>lib\InfraSpaceCore.dll</HintPath>
+    </Reference>
+    <Reference Include="InfraSpaceGameExtensions">
+      <HintPath>lib\InfraSpaceGameExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="InfraSpaceGameFeatures">
+      <HintPath>lib\InfraSpaceGameFeatures.dll</HintPath>
+    </Reference>
+    <Reference Include="old">
+      <HintPath>lib\old.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>lib\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 
