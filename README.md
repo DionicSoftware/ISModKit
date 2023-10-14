@@ -34,8 +34,8 @@ UpkeepMod is a basic mod that uses C# to change the game's behaviour.
       - InfraSpaceGameFeatures.dll
       - old.dll
       - UnityEngine.CoreModule.dll
-      - UnityEngine.PhysicsModule.dll
-      - UnityEngine.dll
+      - UnityEngine.PhysicsModule.dll (optional)
+      - UnityEngine.dll (optional)
    - In visual studio, make sure all references are pointing to the correct dlls. You can manage them in the solution explorer under `UpkeepMod -> Dependencies -> Assemblies`
    - Right click on `Assemblies` and select `Add Assembly Reference...` and then (re)add the dlls.
 
