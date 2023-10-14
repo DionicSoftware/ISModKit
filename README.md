@@ -12,7 +12,7 @@ Modding can require some time to get used to all the tools. If you feel like som
 ISModKitUnity is necessary to make 3D assets for the game and includes various tools for you to make them.
 
 1. Download the ModKit
-2. Download and install [Unity version 2020.3.3f1](https://unity3d.com/get-unity/download/archive)
+2. Download and install [Unity version 2021.3.30f1](https://unity3d.com/get-unity/download/archive)
 3. Launch Unity and open the ISModKitUnity folder to launch the project
 4. You should be ready to use the tools described in the forum tutorial!
 
