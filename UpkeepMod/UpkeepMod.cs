@@ -46,7 +46,7 @@ namespace ExampleMod {
 
         private int GetNumberOfBuildings() {
             // Count all of the nodes in the city graph that are buildings (nodes can be other things too, like intersections)
-            return WorldScripts.Inst.simulator.nodes.Count(x => x is Building);
+            return Old.GetSimulator().nodes.Count(x => x is Building);
         }
     }
 }
