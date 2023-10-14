@@ -32,7 +32,7 @@ UpkeepMod is a basic mod that uses C# to change the game's behaviour.
 4. Have a look at the code and try to understand what it's doing. Also check the script mod tutorial.
 5. In the menu, click on `Build -> Build Solution`
 6. A new dll file has been compiled and moved into `UpkeepMod\bin\Release\net4.7.2\UpkeepMod.dll`.
-7. Copy only `UpkeepMod.dll` into [UpkeepMod's mod directory](https://github.com/DionicSoftware/ISModKit/tree/master/ExampleMods/UpkeepMod). InfraSpace will now load the dll, look for any classes that inherit from `Mod` and start them with the game.
+7. Copy only `UpkeepMod.dll` into [UpkeepMod's mod directory](https://github.com/DionicSoftware/ISModKit/tree/master/ExampleMods/UpkeepMod). InfraSpace will now load the mod, look for any classes that inherit from `Mod` and start them with the game.
 8. Start InfraSpace place a couple buildings and see if the concrete is being reduced by your number of buildings periodically.
 
 
